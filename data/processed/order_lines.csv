@@ -1,0 +1,59 @@
+OrderID,OrderDate,CustomerID,ProductID,UnitPrice,Quantity,Discount,ProductName,line_total
+30,2006-01-15,27,34,14.0,100.0,0.0,Northwind Traders Beer,1400.0
+30,2006-01-15,27,80,3.5,30.0,0.0,Northwind Traders Dried Plums,105.0
+31,2006-01-20,4,7,30.0,10.0,0.0,Northwind Traders Dried Pears,300.0
+31,2006-01-20,4,51,53.0,10.0,0.0,Northwind Traders Dried Apples,530.0
+31,2006-01-20,4,80,3.5,10.0,0.0,Northwind Traders Dried Plums,35.0
+32,2006-01-22,12,1,18.0,15.0,0.0,Northwind Traders Chai,270.0
+32,2006-01-22,12,43,46.0,20.0,0.0,Northwind Traders Coffee,920.0
+33,2006-01-30,8,19,9.2,30.0,0.0,Northwind Traders Chocolate Biscuits Mix,276.0
+34,2006-02-06,4,19,9.2,20.0,0.0,Northwind Traders Chocolate Biscuits Mix,184.0
+35,2006-02-10,29,48,12.75,10.0,0.0,Northwind Traders Chocolate,127.5
+36,2006-02-23,3,41,9.65,200.0,0.0,Northwind Traders Clam Chowder,1930.0
+37,2006-03-06,6,8,40.0,17.0,0.0,Northwind Traders Curry Sauce,680.0
+38,2006-03-10,28,43,46.0,300.0,0.0,Northwind Traders Coffee,13800.0
+39,2006-03-22,8,48,12.75,100.0,0.0,Northwind Traders Chocolate,1275.0
+40,2006-03-24,10,81,2.99,200.0,0.0,Northwind Traders Green Tea,598.0
+41,2006-03-24,7,43,46.0,300.0,0.0,Northwind Traders Coffee,13800.0
+42,2006-03-24,10,6,25.0,10.0,0.0,Northwind Traders Boysenberry Spread,250.0
+42,2006-03-24,10,4,22.0,10.0,0.0,Northwind Traders Cajun Seasoning,220.0
+42,2006-03-24,10,19,9.2,10.0,0.0,Northwind Traders Chocolate Biscuits Mix,92.0
+43,2006-03-24,11,80,3.5,20.0,0.0,Northwind Traders Dried Plums,70.0
+43,2006-03-24,11,81,2.99,50.0,0.0,Northwind Traders Green Tea,149.5
+44,2006-03-24,1,1,18.0,25.0,0.0,Northwind Traders Chai,450.0
+44,2006-03-24,1,43,46.0,25.0,0.0,Northwind Traders Coffee,1150.0
+44,2006-03-24,1,81,2.99,25.0,0.0,Northwind Traders Green Tea,74.75
+45,2006-04-07,28,41,9.65,50.0,0.0,Northwind Traders Clam Chowder,482.5
+45,2006-04-07,28,40,18.4,50.0,0.0,Northwind Traders Crab Meat,920.0
+46,2006-04-05,9,57,19.5,100.0,0.0,Northwind Traders Ravioli,1950.0
+46,2006-04-05,9,72,34.8,50.0,0.0,Northwind Traders Mozzarella,1740.0
+47,2006-04-08,6,34,14.0,300.0,0.0,Northwind Traders Beer,4200.0
+48,2006-04-05,8,8,40.0,25.0,0.0,Northwind Traders Curry Sauce,1000.0
+48,2006-04-05,8,19,9.2,25.0,0.0,Northwind Traders Chocolate Biscuits Mix,230.0
+50,2006-04-05,25,21,10.0,20.0,0.0,Northwind Traders Scones,200.0
+51,2006-04-05,26,5,21.35,25.0,0.0,Northwind Traders Olive Oil,533.75
+51,2006-04-05,26,41,9.65,30.0,0.0,Northwind Traders Clam Chowder,289.5
+51,2006-04-05,26,40,18.4,30.0,0.0,Northwind Traders Crab Meat,552.0
+56,2006-04-03,6,48,12.75,10.0,0.0,Northwind Traders Chocolate,127.5
+55,2006-04-05,29,34,14.0,87.0,0.0,Northwind Traders Beer,1218.0
+79,2006-06-23,6,7,30.0,30.0,0.0,Northwind Traders Dried Pears,900.0
+79,2006-06-23,6,51,53.0,30.0,0.0,Northwind Traders Dried Apples,1590.0
+78,2006-06-05,29,17,39.0,40.0,0.0,Northwind Traders Fruit Cocktail,1560.0
+77,2006-06-05,26,6,25.0,90.0,0.0,Northwind Traders Boysenberry Spread,2250.0
+76,2006-06-05,25,4,22.0,30.0,0.0,Northwind Traders Cajun Seasoning,660.0
+75,2006-06-05,8,48,12.75,40.0,0.0,Northwind Traders Chocolate,510.0
+74,2006-06-08,6,48,12.75,40.0,0.0,Northwind Traders Chocolate,510.0
+73,2006-06-05,9,41,9.65,10.0,0.0,Northwind Traders Clam Chowder,96.5
+72,2006-06-07,28,43,46.0,5.0,0.0,Northwind Traders Coffee,230.0
+71,2006-05-24,1,40,18.4,40.0,0.0,Northwind Traders Crab Meat,736.0
+70,2006-05-24,11,8,40.0,20.0,0.0,Northwind Traders Curry Sauce,800.0
+69,2006-05-24,10,80,3.5,15.0,0.0,Northwind Traders Dried Plums,52.5
+67,2006-05-24,10,74,10.0,20.0,0.0,Northwind Traders Almonds,200.0
+60,2006-04-30,8,72,34.8,40.0,0.0,Northwind Traders Mozzarella,1392.0
+63,2006-04-25,3,3,10.0,50.0,0.0,Northwind Traders Syrup,500.0
+63,2006-04-25,3,8,40.0,3.0,0.0,Northwind Traders Curry Sauce,120.0
+58,2006-04-22,4,20,81.0,40.0,0.0,Northwind Traders Marmalade,3240.0
+58,2006-04-22,4,52,7.0,40.0,0.0,Northwind Traders Long Grain Rice,280.0
+80,2006-04-25,4,56,38.0,10.0,0.0,Northwind Traders Gnocchi,380.0
+81,2006-04-25,3,81,2.99,0.0,0.0,Northwind Traders Green Tea,0.0
+81,2006-04-25,3,56,38.0,0.0,0.0,Northwind Traders Gnocchi,0.0
