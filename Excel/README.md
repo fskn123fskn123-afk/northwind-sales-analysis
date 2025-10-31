@@ -9,7 +9,7 @@ Quick Links
 
 Overview
 --------------------------------
-An interactive Excel dashboard built on Northwind order lines. It mirrors the key KPIs and visuals from the repo and is designed for quick review by hiring managers who prefer Excel over BI tools.
+An interactive Excel dashboard built on Northwind order lines. It mirrors the key KPIs and visuals from the repo and is designed for quick review by clients who prefer Excel over BI tools.
 
 Business Insights (sample window)
 --------------------------------
@@ -86,7 +86,6 @@ Design Decisions (why it looks this way)
 - Borderless charts and custom borderless slicer/timeline styles to create one cohesive panel without heavy boxes.
 - Consistent sizing and Ribbon‑only Align commands for reproducible, pixel‑clean layout; objects set to “Move but don’t size with cells” so edits don’t drift visuals.
 - Legends removed on single‑series charts, light gray axes/gridlines, and consistent number formats for focus and readability.
-- Export tuned for hiring review: one‑page PDF with centered layout so evaluators get a crisp artifact without opening Excel.
-
+- Export tuned for client review: one‑page PDF with centered layout so evaluators get a crisp artifact without opening Excel.
 
 

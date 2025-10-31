@@ -37,7 +37,7 @@ Notes
 
 Power BI Report
 --------------------------------
-This repo includes a compact, hiring‑manager‑friendly Power BI presentation built on the same Northwind dataset. It demonstrates clean modeling, core DAX, and day‑to‑day report building.
+This repo includes a compact, client‑friendly Power BI presentation built on the same Northwind dataset. It demonstrates clean modeling, core DAX, and day‑to‑day report building.
 
 - Files:
   - PBIX: [NorthWind PowerBI.pbix](PowerBI/NorthWind%20PowerBI.pbix) — Import model with data embedded; opens without MySQL.
@@ -78,7 +78,7 @@ Data Source
 Who It’s For
 --------------------------------
 - Analysts/engineers who want a quick, clean dataset for revenue KPIs.
-- Hiring managers reviewing data skills without having to configure a DB (CSV mode works out of the box once CSVs are generated).
+- Clients or stakeholders reviewing data skills without having to configure a DB (CSV mode works out of the box once CSVs are generated).
 - Anyone who wants a minimal, readable reference for ETL → KPIs → charts.
 
 Repository Contents
