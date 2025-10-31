@@ -3,6 +3,11 @@ Northwind Sales Analysis
 
 A small, reproducible analytics project that extracts order line data from a Northwind MySQL database (or prebuilt CSVs), computes key KPIs, and produces clear visuals. It’s designed to be easy to run for reviewers while also showing the end‑to‑end ETL steps.
 
+Dashboards
+--------------------------------
+- Excel Dashboard: see `Excel/README.md`
+- Power BI Report: see `PowerBI/README.md`
+
 Overview
 --------------------------------
 - Problem: turn raw transactional data into monthly revenue trends, AOV, top customers, and top products — plus a few extra exploratory charts.
@@ -37,23 +42,31 @@ This repo includes a compact, hiring‑manager‑friendly Power BI presentation 
 - Files:
   - PBIX: [NorthWind PowerBI.pbix](PowerBI/NorthWind%20PowerBI.pbix) — Import model with data embedded; opens without MySQL.
   - PDF: [NorthWind PowerBI.pdf](PowerBI/NorthWind%20PowerBI.pdf) — Snapshot of the report for quick review.
+  - Screenshot: [screenshot.png](PowerBI/screenshot.png)
 - Pages:
   - Overview — KPIs (Sales, AOV, Orders, Customers), Date/Product slicers, Monthly Sales line, Top‑10 Products/Customers.
   - Products — Product matrix (Sales, Quantity, Orders) and Top‑15 Products chart.
 - Modeling & Measures:
   - Dedicated `Date` table (marked as a date table) related 1→* to `OrderLines[OrderDate]`.
   - Measures: `Sales`, `Orders`, `Customers`, `AOV`, plus basic time intelligence (MoM%, YTD optional).
-- Screenshots (quick peek):
-
-  ![Overview](figures/powerbi_overview.png)
-
-  ![Products](figures/powerbi_products.png)
+- Details: see `PowerBI/README.md` for model, measures, and usage.
 
 Notes
 - Report is saved in Import mode so reviewers can open the PBIX without configuring a gateway.
 - To refresh from MySQL instead: update credentials in Desktop and publish with an on‑premises gateway.
   
 Tip: When viewing locally in VS Code, use “Open Preview” (Ctrl+Shift+V) to see images and links rendered.
+
+Excel Dashboard
+--------------------------------
+An Excel dashboard that mirrors the key KPIs and visuals with interactive slicers and a timeline. Built for reviewers who prefer Excel over BI tools.
+
+- Files:
+  - Workbook: [Excel northwind analysis.xlsx](Excel/Excel%20northwind%20analysis.xlsx)
+  - PDF export: [Excel northwind analysis.pdf](Excel/Excel%20northwind%20analysis.pdf)
+  - Screenshot: [screenshot.png](Excel/screenshot.png)
+- Contents: KPI cards, OrderDate timeline, Product slicer, Monthly Sales, Top‑10 Customers/Products, and Weekday Sales.
+- Details: see `Excel/README.md` for usage, styling choices, and export steps.
 
 Data Source
 --------------------------------
@@ -220,3 +233,5 @@ Troubleshooting
 - Connection errors: verify MySQL is running and that `HOST/PORT/USER/PASSWORD/DB` match your local setup.
 
 ---
+
+[Back to Dashboards](#dashboards)
